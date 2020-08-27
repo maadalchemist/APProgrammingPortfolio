@@ -54,5 +54,6 @@ class Main {
       System.out.println("Would you like to perform another calculation? (y/n)");
       bLoop = (s1.next().charAt(0) == 'y');
     }
+    s1.close();
   }
 }
