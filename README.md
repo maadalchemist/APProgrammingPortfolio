@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+# AP Computer Programming Portfolio
 
-You can use the [editor on GitHub](https://github.com/maadalchemist/Programming1Portfolio/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is a basic collection of all my code from the 2020 - 2021 AP Computer Programming class. I will attempt to design each reasonable project in both java and c++ in order to practice skills for both the AP test as well as skills for a job in game design. Collected below will be the documentation for each project.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Basic Console Calculator
 
-### Markdown
+Prints a welcome statement to the console
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Asks user for first number
 
-```markdown
-Syntax highlighted code block
+Asks user for an operator ( +, -, *, or /)
 
-# Header 1
-## Header 2
-### Header 3
+Asks user for second number
 
-- Bulleted
-- List
+Prints the answer in the console
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/maadalchemist/Programming1Portfolio/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Asks user if they would like to perform another calculation
