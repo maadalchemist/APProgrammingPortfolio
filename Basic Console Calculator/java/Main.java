@@ -6,7 +6,6 @@ class Main {
     double num1, num2, output;
     char op = ' ';
     Scanner s1 = new Scanner(System.in);
-    String input;
     // Prints a welcome statement to the console
     System.out.println("Welcome to this consle calculator app!");
 
