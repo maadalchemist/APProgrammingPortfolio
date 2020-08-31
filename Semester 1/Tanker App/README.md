@@ -1,6 +1,6 @@
 # Tanker app
 
-This console app estimates how many 11,000 gallon takers of water someone will consume in their lifetie given an estimated lifetime
+This console app estimates how many 11,000 gallon takers of water someone will consume in their lifetime given an estimated lifetime
 
 ## Psudocode
 
@@ -31,11 +31,11 @@ tankers_consumed
 * print welcome message
 * ask for lifespan
 * GET INPUT: lifespan_yrs
-  * lifespan is 70
+  * lifespan is 100
 * ask for oz per oz per day
 * GET INPUT: oz_per_day
-  * oz per day is 10
+  * oz per day is 100
 * tankers_consumed equals water_oz_per_day multiplied by 365 (to get oz/year) divided by 128 (to get gallons per year) multiplied by lifespan_yrs divided by 11,000
   * tankers_consumed = 10 * 365 / 128 * 70 / 11,000
 * print answer
-  * you would consume ___ 11,000 gallon tankers in your lifetime!
+  * you would consume 2.5923295454545454 11,000 gallon tankers in your lifetime!
