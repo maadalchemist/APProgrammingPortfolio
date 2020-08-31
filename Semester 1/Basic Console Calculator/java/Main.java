@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Main {
+public class Main {
   public static void main(String[] args) {
     boolean bLoop = true;
     double num1, num2, output;
@@ -11,7 +11,7 @@ class Main {
 
     while (bLoop){
 
-      
+
 
       // Asks user for first number and saves the input as a numeric variable
       System.out.println("Please input the first number");
