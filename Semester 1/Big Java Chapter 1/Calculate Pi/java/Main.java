@@ -5,5 +5,6 @@ public class Main {
       pi -= 1/i;
     }
     pi *= 4;
+    System.out.println(pi);
   }
 }
