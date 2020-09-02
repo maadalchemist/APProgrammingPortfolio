@@ -4,6 +4,6 @@ public class Main {
     for (int i = 3; i < 10000000; i += 2) {
       pi -= 1/i;
     }
-    pi 
+    pi *= 4;
   }
 }
