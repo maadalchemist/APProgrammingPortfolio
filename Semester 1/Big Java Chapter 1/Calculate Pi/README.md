@@ -8,10 +8,13 @@ This console app estimates pi
 * Calculate pi
 
 ### Inputs and Outputs
-* pi
+* double pi
+* int subtract
 
 ### Tasks
 * set pi to 1
-* for as large a number as reasonable for runtime
-  * subtract 1/current cycle from pi
+* for 2,147,483,647 times (max int size)
+  * pi plus_equals (1/current cycle) * (subtract)
+  * subtract = !subtract
 * multiply pi by 4
+* return pi
