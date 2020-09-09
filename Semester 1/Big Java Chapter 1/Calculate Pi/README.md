@@ -1,6 +1,6 @@
 # Calculate Pi
 
-This console app estimates pi
+This console app estimates pi. The java version averages 3465 milliseconds, whereas the c++ version takes 3227934 milliseconds on average, despite identical logic. Will look into the performance discrepancy later.
 
 ## Psudocode
 
