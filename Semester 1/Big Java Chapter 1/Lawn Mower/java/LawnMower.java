@@ -16,10 +16,14 @@ public class LawnMower {
 
   // Member Methods
   public void move(){
-
+    //if next block is unmowed
+      // move forward
+      // change grass to mowed;
+    // else
+      // rotate to the left
   }
-  
-  public void display(){
 
+  public void display(){
+    Display.draw_char(x, y, 'O');
   }
 }
