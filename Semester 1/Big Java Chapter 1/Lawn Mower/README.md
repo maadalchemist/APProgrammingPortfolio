@@ -16,7 +16,7 @@ Write an algorithm that allows a robot to mow a rectangular lawn, provided it ha
 ### Inputs and Outputs
 * Class Main
   * Scanner cin
-  * int lawnX, lawnY
+  * int lawnW, lawnH
   * char array lawn[][]
 * Class LawnMower
   * int x, y, facing
@@ -30,8 +30,8 @@ Lawn Mower Class
   * rotate to the left
 Main class
 * Welcome the user
-* Ask user for lawn x
-* Ask user for lawn y
+* Ask user for lawn width
+* Ask user for lawn height
 * Generate lawn array
 * Construct LawnMower object
 * while lawn not mowed
