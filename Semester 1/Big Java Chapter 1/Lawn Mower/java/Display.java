@@ -11,7 +11,7 @@ public class Display {
   }
 
   // Member Methods
-  void clear() {
+  public void clear() {
     for (int i = 0; i <= display.length; i++) {
       for (int j = 0; i <= display[0].length; i++) {
         display[i][j] = ' ';
@@ -19,7 +19,7 @@ public class Display {
     }
   }
 
-  void draw() {
+  public void draw() {
     for (int i = 0; i <= display[0].length; i++) {
       for (int j = 0; i <= display.length; i++) {
         System.out.print(display[j][i]);
@@ -28,19 +28,30 @@ public class Display {
     }
   }
 
-  void draw_char(int _x, int _y, char _character) {
+  public void draw_char(int _x, int _y, char _character) {
     display[_x][_y] = _character;
   }
 
-  void draw_rect(int _x, int _y, int _w, int _h, char _character) {
-    for (int i = 0; i <= _w; i++) {
-      for (int j = 0; i <= _h; j++) {
-        display[i + _x][j + _y] = _character;
+  public void draw_rect(int _x, int _y, int _w, int _h, boolean _fill, char _character) {
+    if (_fill) {
+      for (int i = 0; i <= _w; i++) {
+        for (int j = 0; i <= _h; j++) {
+          display[i + _x][j + _y] = _character;
+        }
+      }
+    } else {
+      for (int i = 0; i <= _w; i++) {
+        display[_x + i][_y];
+        display[_x + i][_y + _h];
+      }
+      for (int i = 0; i <= _h; i++) {
+        display[_x][_y + i];
+        display[_x + _w][_y + i];
       }
     }
   }
 
-  void draw_text(int _x, int _y, String _txt) {
+  public void draw_text(int _x, int _y, String _txt) {
     for (int i = 0; i <= _txt.length; i++) {
       display[_x + i][_y] = _txt.charAt(i);
     }
