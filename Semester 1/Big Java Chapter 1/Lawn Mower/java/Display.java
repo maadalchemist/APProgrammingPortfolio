@@ -4,7 +4,7 @@ public class Display {
   char[][] display;
 
   // Constructor
-  public Display(int _dispW, int dispH) {
+  public Display(int _dispW, int _dispH) {
     this.dispW = _dispW;
     this.dispH = _dispH;
     this.display = new char[dispW][dispH];
@@ -12,19 +12,19 @@ public class Display {
 
   // Member Methods
   public void clear() {
-    for (int i = 0; i <= display.length; i++) {
-      for (int j = 0; i <= display[0].length; i++) {
-        display[i][j] = ' ';
+    for (int i = 0; i < dispW; i++) {
+      for (int j = 0; i < dispH; i++) {
+        display[i][j] = '.';
       }
     }
   }
 
   public void draw() {
-    for (int i = 0; i <= display[0].length; i++) {
-      for (int j = 0; i <= display.length; i++) {
+    for (int i = 0; i < dispH; i++) {
+      for (int j = 0; i < dispW; i++) {
         System.out.print(display[j][i]);
       }
-      System.out.print();
+      System.out.println('\n');
     }
   }
 
@@ -41,18 +41,18 @@ public class Display {
       }
     } else {
       for (int i = 0; i <= _w; i++) {
-        display[_x + i][_y];
-        display[_x + i][_y + _h];
+        display[_x + i][_y] = _character;
+        display[_x + i][_y + _h] = _character;
       }
       for (int i = 0; i <= _h; i++) {
-        display[_x][_y + i];
-        display[_x + _w][_y + i];
+        display[_x][_y + i] = _character;
+        display[_x + _w][_y + i] = _character;
       }
     }
   }
 
   public void draw_text(int _x, int _y, String _txt) {
-    for (int i = 0; i <= _txt.length; i++) {
+    for (int i = 0; i <= _txt.length(); i++) {
       display[_x + i][_y] = _txt.charAt(i);
     }
   }
