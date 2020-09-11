@@ -56,4 +56,12 @@ public class Display {
       display[_x + i][_y] = _txt.charAt(i);
     }
   }
+
+  public void draw_2d_char_array(int _x, int _y, char[][] _array) {
+    for (int i = 0; i < _array.length; i++) {
+      for (int j = 0; j < _array[0].length; j++) {
+        display[i + _x][j + _y] = _array[i][j];
+      }
+    }
+  }
 }
