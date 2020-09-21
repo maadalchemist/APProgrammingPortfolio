@@ -5,7 +5,7 @@ public class FamilyMember {
 
   public FamilyMember (String _name, int bDayY, int bDayM, int bDayD) {
     this.name = _name;
-    this.birthday = new day(bDayY, bDayM, bDayD);
+    this.birthday = new Day(bDayY, bDayM, bDayD);
     this.bar = new RectangleComponent(0,0,0,0);
   }
 
