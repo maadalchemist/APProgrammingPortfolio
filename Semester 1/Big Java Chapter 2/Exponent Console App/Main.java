@@ -9,10 +9,10 @@ public class Main {
         System.out.println("Welcome to the exponent console app!");
         System.out.println("Please input a number:");
         a = new BigInteger(cin.next());
-        System.out.println("Your number:                      " + pow(a,1));
-        // System.out.println("Your number squared:           " + pow(a,2));
-        // System.out.println("Your number to the power of 4: " + pow(a,4));
-        // System.out.println("Your number to the power of 8: " + pow(a,8));
+        System.out.println("Your number:                   " + a.pow(1));
+        System.out.println("Your number squared:           " + a.pow(2));
+        System.out.println("Your number to the power of 4: " + a.pow(4));
+        System.out.println("Your number to the power of 8: " + a.pow(8));
 
     }
 }
