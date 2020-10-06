@@ -56,11 +56,13 @@ public class BankAccount {
   * @param _fee this is the value the fee is set to (in decimal form)
   */
   public void setTransactionFee(double _fee) {
-
+    this.transactionFee = _fee;
   }
 
   /**
   * This method subtracts the monthly account fee from the account balance
+  * It charges 10 cents per transactions minus the first 6 (which are free)
+  * At the end it resets data for the new month
   */
   public void deductMonthlyCharge() {
 
