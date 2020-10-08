@@ -6,23 +6,23 @@
 * @version 1.0
 * @since   2020-10-06
 */
+
+import java.math.*;
+
 public class BankAccount {
   private double balance;
   private double transactionFee;
-  private double monthlyCharge;
   private int    transactionCount;
 
   public BankAccount(){
-    this.balance         = 0;
-    this.transactionFee  = .10;
-    this.monthlyCharge   = 0;
-    this.transationCount = 0;
+    this.balance          = 0;
+    this.transactionFee   = .10;
+    this.transactionCount = 0;
   }
   public BankAccount(int _initialDeposit) {
-    this.balance         = _initialDeposit;
-    this.transactionFee  = .10;
-    this.monthlyCharge   = 0;
-    this.transationCount = 0;
+    this.balance          = _initialDeposit;
+    this.transactionFee   = .10;
+    this.transactionCount = 0;
   }
 
   /**
@@ -48,7 +48,7 @@ public class BankAccount {
   * @return returns the account balance
   */
   public double getBalance() {
-    return this.balance;
+    return this.round(this.balance, 2);
   }
 
   /**
@@ -65,7 +65,20 @@ public class BankAccount {
   * At the end it resets data for the new month
   */
   public void deductMonthlyCharge() {
+    this.balance -= transactionFee * Math.max(0,transactionCount - 6);
+    transactionCount = 0;
+  }
 
+  /**
+  * This method is used to round decimals
+  * @param _value This is the value to be rounded
+  * @param _places This is the number of places the nuber needs to be ronded to
+  * @return bd.doubleValue() This is simply the rounded number
+  */
+  private double round(double _value, int _places) {
+    BigDecimal bd = new BigDecimal(Double.toString(_value));
+    bd = bd.setScale(_places, RoundingMode.HALF_UP);
+    return bd.doubleValue();
   }
 }
 
