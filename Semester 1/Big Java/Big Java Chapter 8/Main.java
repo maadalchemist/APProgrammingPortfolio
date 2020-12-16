@@ -119,5 +119,3 @@ public class Main extends JFrame {
        new Main();
    }
 }
-
-T H E C O D E
