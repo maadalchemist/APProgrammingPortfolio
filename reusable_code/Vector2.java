@@ -39,4 +39,15 @@ public class Vector2 {
     public Vector2 divide(Vector2 other) {
         return new Vector2(this.x / other.x, this.y / other.y);
     }
+
+    public void normalize() {
+        // sets length to 1
+        double length = Math.sqrt(x*x + y*y);
+
+        if (length != 0.0) {
+            float s = 1.0f / (float)length;
+            x = x*s;
+            y = y*s;
+        }
+    }
 }
