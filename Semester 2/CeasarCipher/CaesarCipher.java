@@ -2,6 +2,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Scanner;
+import java.lang.Math;
 
 /**
    This program encrypts a file using the Caesar cipher.
@@ -10,7 +11,7 @@ public class CaesarCipher
 {
    public static void main(String[] args) throws FileNotFoundException
    {
-      final int DEFAULT_KEY = 3;
+      final int DEFAULT_KEY = 1;
       int key = DEFAULT_KEY;
       String inFile = "";
       String outFile = "";
@@ -42,11 +43,17 @@ public class CaesarCipher
       in.useDelimiter(""); // Process individual characters
       PrintWriter out = new PrintWriter(outFile);
 
+
+      int loop = 1;
+      int posKey;
       while (in.hasNext())
       {
          char from = in.next().charAt(0);
-         char to = encrypt(from, key);
+         posKey = key * (int) (1423 * Math.sin(loop * 158) * Math.sin(loop)) % 26;
+         // System.out.println(posKey);
+         char to = encrypt(from, posKey);
          out.print(to);
+         loop ++;
       }
       in.close();
       out.close();
