@@ -81,6 +81,6 @@ public class Tester {
         System.out.println();
         System.out.println("Fibbinacci functions with 50 interations:");
         System.out.println("Fibbinacci recursive execution time (in nanos): " + fib_rec);
-        System.out.println("Fibbinacci recursive execution time (in nanos): " + fib_ite);
+        System.out.println("Fibbinacci iterative execution time (in nanos): " + fib_ite);
     }
 }
