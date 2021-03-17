@@ -40,8 +40,8 @@ class Main {
     System.out.println("Welcome to the guessing game!");
     System.out.println("Highscore is: " + highscore.duration);
     while (0 == 0) {
-        System.out.println("Please enter your name: ");
-        String name = cin.nextLine();
+        System.out.println("\nPlease enter your name: ");
+        String name = cin.next();
         long sTime = date.getTime();
         System.out.println("Start time: " + sTime);
 
@@ -67,15 +67,15 @@ class Main {
         scoresOut.write('\n' + name + '\t' + stringDate + '\t' + duration + '\t' + attempts);
         scoresOut.flush();
 
-        System.out.println("\nCongradulations! here are some of your stats: ");
+        System.out.println("\nCongradulations! here are some of your stats:\n");
         System.out.println("Name: " + name);
         System.out.println("Date: " + stringDate);
         System.out.println("Duration: " + duration + " milliseconds");
         System.out.println("Attempts: " + attempts);
 
         System.out.println("\nWould you like to play again? (y/n)");
-        string input = cin.next();
-        if (input == "y") {
+        String input = cin.next();
+        if (input == "n") {
             break;
         }
     }
