@@ -73,7 +73,7 @@ A chunk in the "RED" state is completely blank. To become "YELLOW" it gets popul
 
 when the chunk dicitonaries are exported as a png image, you can get an idea of how these chunks work:
 
-![chunk_visualization](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/MinesweeperRPG/doc/worldVectorStructure.png)
+![chunk_visualization](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/MinesweeperRPG/doc/chunk_generation_visualization.png)
 
 ## Shaders
 
