@@ -41,16 +41,16 @@ This program works of a very simple algorithm that runs on a timer or 10 minutes
 
 ---
 ## Class Diagram
-![class_diagram](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/StockInvestor/doc/classDiagram.png)
+![class_diagram](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/StockInvestor/doc/classDiagram.png "Class Diagram")
 
 ---
 ## Example Output
-![example_output](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/StockInvestor/doc/example_output.png)
+![example_output](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/StockInvestor/doc/example_output.png "Output")
 
 ---
 # Minesweeper RPG
 
-![icon](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/MinesweeperRPG/doc/icon.png)
+![icon](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/MinesweeperRPG/doc/icon.png "Icon")
 
 Minesweeper RPG is a game where you control an actual ship out sweeping mines. Rather than the traditional, limited map size, this game features a procedurally generated map, turning a time trial game into an endless arcade game.
 
@@ -59,7 +59,7 @@ This project was a way for me to explore data structures, procedural generation,
 ## How to play
 The arrow keys are used for movement. The up and down arrow keys move the craft forward and backwards, and the left and right arrow keys turn the craft. A tile in front of the ship if marked in yellow. 
 
-![target_reference](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/MinesweeperRPG/doc/target_reference_screencap.png)
+![target_reference](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/MinesweeperRPG/doc/target_reference_screencap.png "Target Reference")
 
 Clicking 'z' will reveal that tile, and clicking 'x' will flag that tile. 
 
@@ -73,7 +73,7 @@ A chunk in the "RED" state is completely blank. To become "YELLOW" it gets popul
 
 when the chunk dicitonaries are exported as a png image, you can get an idea of how these chunks work:
 
-![chunk_visualization](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/MinesweeperRPG/doc/chunk_generation_visualization.png)
+![chunk_visualization](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/MinesweeperRPG/doc/chunk_generation_visualization.png "Chunk Visualization")
 
 ## Shaders
 
@@ -87,7 +87,7 @@ There is also a grid shader to differentiate tiles, which uses the same tiling t
 
 Only variables and methods I created are presented in this diagram, becasue we would be here all day if I listed what the Godot engine handles. In addition, any simple methods or variables are left out in order to present important methods more prominantly. Also, because GDScript is a dynamic language, return types have been left off of methods as many of them are dynamic in nature
 
-![class_diagram](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/MinesweeperRPG/doc/classDiagram.png)
+![class_diagram](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/MinesweeperRPG/doc/classDiagram.png "Class Diagram")
 
 ---
 # Basic Console Calculator
@@ -97,7 +97,7 @@ This short app can be used as a basic calculator. It prints a welcome statement 
 ---
 ## Example Usage
 
-![example](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/Basic%20Console%20Calculator/java/example_output.png)
+![example](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/Basic%20Console%20Calculator/java/example_output.png "Example")
 
 --- 
 # Hangman
@@ -106,13 +106,13 @@ This does exactly what you would expect it to. I will randomly select a word fro
 
 ## Example Usage
 
-![example](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/Hang%20man/Screenshot%202021-05-24%20171203.png)
+![example](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/Hang%20man/Screenshot%202021-05-24%20171203.png "Example")
 
 ## Flowchart
 
 Logic was constructed based off of this flowchart:
 
-![flowchart](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/Hang%20man/Hangman%20Flowchart.png)
+![flowchart](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/Hang%20man/Hangman%20Flowchart.png "Flowchart")
 
 ---
 # Ceasar Cypher
@@ -158,4 +158,4 @@ This simple program compares the effectiveness of a recursive and iterative meth
 
 Here is a screenshot of what the porgram looks like when completed:
 
-![example](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/Recursion%20Testing/console_example.png)
+![example](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/Recursion%20Testing/console_example.png "Example")
