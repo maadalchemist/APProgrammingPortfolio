@@ -7,12 +7,10 @@ public class Main {
     char op = ' ';
     Scanner s1 = new Scanner(System.in);
     // Prints a welcome statement to the console
+    System.out.println("--------------------------------------------------------------------------------");
     System.out.println("Welcome to this consle calculator app!");
 
     while (bLoop){
-
-
-
       // Asks user for first number and saves the input as a numeric variable
       System.out.println("Please input the first number");
       num1 = s1.nextDouble();
