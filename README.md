@@ -4,7 +4,7 @@ Joseph Wardle
 
 <josephwardle02@gmail.com>
 
---
+---
 # Stock Market Game Investor
 
 ![alt text](http://www.stockmarketgame.org/img/horizontal_logo_lg.png "StockMarketGame")
@@ -88,3 +88,28 @@ There is also a grid shader to differentiate tiles, which uses the same tiling t
 Only variables and methods I created are presented in this diagram, becasue we would be here all day if I listed what the Godot engine handles. In addition, any simple methods or variables are left out in order to present important methods more prominantly. Also, because GDScript is a dynamic language, return types have been left off of methods as many of them are dynamic in nature
 
 ![class_diagram](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/MinesweeperRPG/doc/classDiagram.png)
+
+---
+# Basic Console Calculator
+
+This short app can be used as a basic calculator. It prints a welcome statement to the console, then asks user for first number and saves the input as a numeric variable. It then asks user for an operator ( +, -, \*, or /). At that point is asks user for second number and saves the input as a numeric variable, and prints thye answer. It wwill then prompt the user whether or not they would like to make another calculation
+
+---
+## Example Usage
+
+![example](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/Basic%20Console%20Calculator/java/example_output.png)
+
+--- 
+# Hangman
+
+This does exactly what you would expect it to. I will randomly select a word from a hardcoded list and play hangman with the user in the console. 
+
+## Example Usage
+
+![example](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/Hang%20man/Screenshot%202021-05-24%20171203.png)
+
+## Flowchart
+
+Logic was constructed based off of this flowchart:
+
+![flowchart](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/Hang%20man/Hangman%20Flowchart.png)
