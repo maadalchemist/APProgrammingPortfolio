@@ -1,6 +1,7 @@
 # AP Computer Programming Portfolio
 
 Joseph Wardle
+
 <josephwardle02@gmail.com>
 
 --
@@ -40,15 +41,16 @@ This program works of a very simple algorithm that runs on a timer or 10 minutes
 
 ---
 ## Class Diagram
-![class_diagram]()
+![class_diagram](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/StockInvestor/doc/classDiagram.png)
 
 ---
 ## Example Output
-![example_output]()
+![example_output](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/StockInvestor/doc/example_output.png)
 
-![icon]()
-
+---
 # Minesweeper RPG
+
+![icon](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/MinesweeperRPG/doc/icon.png)
 
 Minesweeper RPG is a game where you control an actual ship out sweeping mines. Rather than the traditional, limited map size, this game features a procedurally generated map, turning a time trial game into an endless arcade game.
 
@@ -57,7 +59,7 @@ This project was a way for me to explore data structures, procedural generation,
 ## How to play
 The arrow keys are used for movement. The up and down arrow keys move the craft forward and backwards, and the left and right arrow keys turn the craft. A tile in front of the ship if marked in yellow. 
 
-![target_reference]()
+![target_reference](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/MinesweeperRPG/doc/target_reference_screencap.png)
 
 Clicking 'z' will reveal that tile, and clicking 'x' will flag that tile. 
 
@@ -71,7 +73,7 @@ A chunk in the "RED" state is completely blank. To become "YELLOW" it gets popul
 
 when the chunk dicitonaries are exported as a png image, you can get an idea of how these chunks work:
 
-![chunk_visualization]()
+![chunk_visualization](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/MinesweeperRPG/doc/worldVectorStructure.png)
 
 ## Shaders
 
@@ -85,4 +87,4 @@ There is also a grid shader to differentiate tiles, which uses the same tiling t
 
 Only variables and methods I created are presented in this diagram, becasue we would be here all day if I listed what the Godot engine handles. In addition, any simple methods or variables are left out in order to present important methods more prominantly. Also, because GDScript is a dynamic language, return types have been left off of methods as many of them are dynamic in nature
 
-![class_diagram]()
+![class_diagram](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/MinesweeperRPG/doc/classDiagram.png)
