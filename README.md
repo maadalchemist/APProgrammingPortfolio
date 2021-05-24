@@ -113,3 +113,49 @@ This does exactly what you would expect it to. I will randomly select a word fro
 Logic was constructed based off of this flowchart:
 
 ![flowchart](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/Hang%20man/Hangman%20Flowchart.png)
+
+---
+# Ceasar Cypher
+
+This program encrypts a file using the Caesar cipher.
+
+Usage: java CaesarCipher [-d] infile outfile
+
+Example input:
+> My name is Kira Yoshikage.
+> I'm 33 years old.
+> My house is in the northeast section of Morioh, where all the villas are, and I am not married.
+> I work as an employee for the Kame Yu department stores, and I get home every day by 8 PM at the latest.
+> I don't smoke, but I occasionally drink.
+> I'm in bed by 11 PM, and make sure I get eight hours of sleep, no matter what.
+> After having a glass of warm milk and doing about twenty minutes of stretches before going to bed, I usually have no problems sleeping until morning.
+> Just like a baby, I wake up without any fatigue or stress in the morning.
+> I was told there were no issues at my last check-up.
+> I'm trying to explain that I'm a person who wishes to live a very quiet life.
+> I take care not to trouble myself with any enemies, like winning and losing, that would cause me to lose sleep at night.
+> That is how I deal with society, and I know that is what brings me happiness. 
+> Although, if I were to fight I wouldn't lose to anyone.
+
+Example output: 
+> Cx ueaw vf Siqq Sqsyjycbi.
+> D'f 33 fmadk gmt.
+> Hm ktnnp il sj qkf nustkmosl ocwkywj xz Mmlcgj, ekqtk frt gbw yzwfwk haj, dpi R wj ydo vaxeaai.
+> X ackq ln wu aiqrhokh whw fff Wiox Tf ojhqzuoxsm fcmpnx, bty M hqc jbfa lawvb xwj ed 8 RW pq nwr dwlmbz.
+> I qya'r pfkjy, cir U qhbemfpgnqqd kbgub.
+> F'h hf wgm hr 11 LG, frv ihbk wniw D smz efrjf wovdv vh scqoc, kr zazwjg kleh.
+> Sdnms bazcza w ppiua sq nwhv vltc gym xzsca iulbp uustnz kaevatz vr jajraycgx hdifjx efngz vb edx, N bnjpjvi gsqy tw fivpiigk wjwocrms sulsx kjtvheo.
+> Fgxx krnb n tevy, U diwb vh irmimnq cqq vxemxks bb jnsppv ov ggf awrcybh.
+> R hgs kafp rkmcs sjse no qnzxrb yj ka nfcr uiaqn-dt.
+> O'l fadjks ge jzsuhvj btio E'f l blbagf ukx kzxhaz hb udbt j xcpa qrdyj wjeo.
+> Q ftkl cccs utz rg osonevm briyen qxff kyk sekiyhd, txrb xqqkdvw syy byizsq, ydbv dztoo lipur oe vz rhvt rcwap cv fvvqw.
+> Rzhw dr wah W byfw qfzg sbsvsxk, crz N zxcw ycul cl bjef smnnny qb qwuszekda. 
+> Jtyzaxxg, hs B hrpr cq scwtp W puikik'n bzof uo jeimku.
+
+---
+# Recursion Testing
+
+This simple program compares the effectiveness of a recursive and iterative method for the calculation of the Fibbinacci series and factorials. This extensive expirament uses the BigInteger class in order to calculate numbers far beond the limit of the Integer datatype. It was determined that neither function was significantly more efficient with the factorial calculations, but that the iterative approach to the Fibbinacci series is significantly faster.
+
+Here is a screenshot of what the porgram looks like when completed:
+
+![example](https://github.com/maadalchemist/APProgrammingPortfolio/blob/master/Recursion%20Testing/console_example.png)
